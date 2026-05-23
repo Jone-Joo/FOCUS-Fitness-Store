@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOCUS | Fitness Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-theme="dark">
+    <section class="intro" id="intro" aria-label="FOCUS intro">
+        <div class="intro__figure" aria-hidden="true"></div>
+        <h1 class="intro__logo" data-text="FOCUS">FOCUS</h1>
+        <p class="intro__tagline">Train with intention</p>
+    </section>
+
+    <div class="site" id="site">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark border-bottom border-secondary-subtle">
+            <div class="container py-2">
+                <a class="navbar-brand fw-black brand-logo" href="#home">FOCUS</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainMenu">
+                    <ul class="navbar-nav ms-auto gap-lg-3 mt-3 mt-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#training-day">Training Day</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="hero py-5 py-lg-6" id="home">
+                <div class="container">
+                    <div class="row align-items-center g-5 min-vh-hero">
+                        <div class="col-lg-6">
+                            <p class="eyebrow mb-3">Premium fitness essentials</p>
+                            <h2 class="display-2 fw-black lh-1 mb-4">Build strength with gear made for daily discipline.</h2>
+                            <p class="lead text-secondary mb-4">
+                                FOCUS brings clean, reliable fitness equipment and workout accessories for home gyms,
+                                training studios, and athletes who show up every day.
+                            </p>
+                            <div class="d-flex flex-column flex-sm-row gap-3">
+                                <a href="#products" class="btn btn-focus btn-lg px-4">Shop Now</a>
+                                <a href="#about" class="btn btn-outline-light btn-lg px-4">Our Story</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="hero-visual shadow-lg">
+                                <img class="hero-photo" src="images/2.jpg" alt="Athlete training with dumbbells">
+                                <div class="hero-stat">
+                                    <span>120+</span>
+                                    <small>Training-ready products</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-5 py-lg-6" id="products">
+                <div class="container">
+                    <div class="row align-items-end mb-4">
+                        <div class="col-lg-8">
+                            <p class="eyebrow mb-3">Shop the essentials</p>
+                            <h2 class="display-5 fw-black lh-sm">Gear that earns its place in your routine.</h2>
+                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-sm-6 col-lg">
+                            <article class="card product-card h-100">
+                                <figure class="product-art product-art--dumbbells card-img-top mb-0">
+                                    <img src="images/Dumbbells.jpg" alt="Adjustable dumbbells">
+                                </figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="h5 fw-bold">Dumbbells</h3>
+                                    <p class="text-secondary flex-grow-1">Compact strength tools for full-body home and gym workouts.</p>
+                                    <div class="d-flex align-items-center justify-content-between gap-3">
+                                        <strong class="fs-4">$49</strong>
+                                        <button class="btn btn-focus btn-sm">Buy Now</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-sm-6 col-lg">
+                            <article class="card product-card h-100">
+                                <figure class="product-art product-art--bands card-img-top mb-0">
+                                    <img src="images/Resistance_Bands.jpg" alt="Resistance bands for training">
+                                </figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="h5 fw-bold">Resistance Bands</h3>
+                                    <p class="text-secondary flex-grow-1">Lightweight bands for mobility, warmups, and controlled strength work.</p>
+                                    <div class="d-flex align-items-center justify-content-between gap-3">
+                                        <strong class="fs-4">$19</strong>
+                                        <button class="btn btn-focus btn-sm">Buy Now</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-sm-6 col-lg">
+                            <article class="card product-card h-100">
+                                <figure class="product-art product-art--treadmill card-img-top mb-0">
+                                    <img src="images/Treadmill.jpg" alt="Modern treadmill area">
+                                </figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="h5 fw-bold">Treadmill</h3>
+                                    <p class="text-secondary flex-grow-1">A smooth cardio machine built for steady runs and focused intervals.</p>
+                                    <div class="d-flex align-items-center justify-content-between gap-3">
+                                        <strong class="fs-4">$699</strong>
+                                        <button class="btn btn-focus btn-sm">Buy Now</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-sm-6 col-lg">
+                            <article class="card product-card h-100">
+                                <figure class="product-art product-art--gloves card-img-top mb-0">
+                                    <img src="images/Gloves.JPG" alt="Gym gloves for lifting">
+                                </figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="h5 fw-bold">Gym Gloves</h3>
+                                    <p class="text-secondary flex-grow-1">Supportive grip and palm protection for confident heavy lifts.</p>
+                                    <div class="d-flex align-items-center justify-content-between gap-3">
+                                        <strong class="fs-4">$24</strong>
+                                        <button class="btn btn-focus btn-sm">Buy Now</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-sm-6 col-lg">
+                            <article class="card product-card h-100">
+                                <figure class="product-art product-art--shaker card-img-top mb-0">
+                                    <img src="images/Protein_Shaker.jpg" alt="Protein shaker bottle">
+                                </figure>
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="h5 fw-bold">Protein Shaker</h3>
+                                    <p class="text-secondary flex-grow-1">A clean, leak-resistant shaker for hydration and post-workout fuel.</p>
+                                    <div class="d-flex align-items-center justify-content-between gap-3">
+                                        <strong class="fs-4">$14</strong>
+                                        <button class="btn btn-focus btn-sm">Buy Now</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-5 py-lg-6" id="about">
+                <div class="container">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6">
+                            <div class="gym-scene">
+                                <img src="images/1.jpg" alt="Workout essentials beside dumbbells">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <p class="eyebrow mb-3">About FOCUS</p>
+                            <h2 class="display-5 fw-black lh-sm mb-4">Designed for people who train with purpose.</h2>
+                            <p class="lead text-secondary">
+                                We select sports equipment that feels dependable, looks sharp, and makes everyday
+                                training easier to keep. Simple tools, premium details, and no clutter.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mt-4">
+                                <span class="badge feature-badge">Fast delivery</span>
+                                <span class="badge feature-badge">Quality gear</span>
+                                <span class="badge feature-badge">Beginner friendly</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="training-day py-5 py-lg-6" id="training-day">
+                <div class="container">
+                    <div class="row align-items-end mb-4">
+                        <div class="col-lg-8">
+                            <p class="eyebrow mb-3">Training day guide</p>
+                            <h2 class="display-5 fw-black lh-sm">Build your gym session around the right machine.</h2>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="text-secondary mb-0">
+                                Pick the target for the day, start with a controlled warmup, then use machines that keep
+                                the movement clean and easy to repeat.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="routine-strip mb-4" aria-label="Suggested workout order">
+                        <div>
+                            <span>01</span>
+                            <strong>Warm Up</strong>
+                            <small>8-12 minutes</small>
+                        </div>
+                        <div>
+                            <span>02</span>
+                            <strong>Main Machine</strong>
+                            <small>3-4 sets</small>
+                        </div>
+                        <div>
+                            <span>03</span>
+                            <strong>Accessories</strong>
+                            <small>2-3 movements</small>
+                        </div>
+                        <div>
+                            <span>04</span>
+                            <strong>Cool Down</strong>
+                            <small>stretch and breathe</small>
+                        </div>
+                    </div>
+
+                    <div class="training-grid">
+                        <article class="training-card">
+                            <img src="images/Treadmill.jpg" alt="Treadmill cardio warmup">
+                            <div class="training-card__body">
+                                <p class="training-card__tag">Cardio warmup</p>
+                                <h3>Treadmill</h3>
+                                <p>Start easy, keep your chest tall, and increase speed gradually until breathing feels active but controlled.</p>
+                                <ul>
+                                    <li>Use it before any workout day.</li>
+                                    <li>Walk or jog for 8-12 minutes.</li>
+                                    <li>Keep hands relaxed instead of leaning on the rails.</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="training-card">
+                            <img src="images/Chest_Press.jpg" alt="Chest press machine">
+                            <div class="training-card__body">
+                                <p class="training-card__tag">Push day</p>
+                                <h3>Chest Press</h3>
+                                <p>Set the seat so the handles line up with the middle of your chest, then press forward with steady control.</p>
+                                <ul>
+                                    <li>Targets chest, shoulders, and triceps.</li>
+                                    <li>Keep shoulder blades back against the pad.</li>
+                                    <li>Stop before locking the elbows hard.</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="training-card">
+                            <img src="images/Lat_Pulldown.jpg" alt="Lat pulldown machine">
+                            <div class="training-card__body">
+                                <p class="training-card__tag">Pull day</p>
+                                <h3>Lat Pulldown</h3>
+                                <p>Grip slightly wider than your shoulders, pull the bar toward your upper chest, then return slowly.</p>
+                                <ul>
+                                    <li>Targets lats, upper back, and biceps.</li>
+                                    <li>Drive elbows down, not backward only.</li>
+                                    <li>Avoid swinging your torso to move the weight.</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="training-card">
+                            <img src="images/Leg_Press.jpg" alt="Leg press machine">
+                            <div class="training-card__body">
+                                <p class="training-card__tag">Leg day</p>
+                                <h3>Leg Press</h3>
+                                <p>Place feet hip-width on the platform, lower with control, and push through the middle of your foot.</p>
+                                <ul>
+                                    <li>Targets quads, glutes, and hamstrings.</li>
+                                    <li>Keep knees tracking in the same line as toes.</li>
+                                    <li>Do not lock the knees at the top.</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="border-top border-secondary-subtle py-4">
+            <div class="container d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
+                <p class="brand-logo mb-0">FOCUS</p>
+                <span class="text-secondary">Sports equipment and fitness gear for stronger routines.</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
