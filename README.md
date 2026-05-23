@@ -28,9 +28,3 @@ FOCUS is a static single-page fitness store website built with HTML, CSS, Bootst
 - Bootstrap 5.3.8
 - Vanilla JavaScript
 
-## How To Run
-
-Open `index.html` directly in your browser, or run a local server:
-
-```bash
-python -m http.server 8080
